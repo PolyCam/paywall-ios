@@ -57,6 +57,7 @@
 		30D35D245959F241F9A0B897 /* ProductsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C569ACE92A91E56862D9BD9E /* ProductsManager.swift */; };
 		3220994822B0850F4695A7CB /* Stubbable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A60E23DF85E41589376F5A /* Stubbable.swift */; };
 		33F04DC28D9A79E5A44D78F0 /* apiDiagram.png in Resources */ = {isa = PBXBuildFile; fileRef = 21C718FA9E6B454773581EC2 /* apiDiagram.png */; };
+		3410E597296327E800C024A9 /* Paywall+RulesHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3410E596296327E800C024A9 /* Paywall+RulesHelper.swift */; };
 		344619AA8E8E1078297DD0BD /* SuperwallEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3785D7EBE2E8BB32E88C6B6D /* SuperwallEvent.swift */; };
 		34CA3085967ADCC2C77D854C /* AppSessionManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5165C7ADB3B669CDB2165E /* AppSessionManagerTests.swift */; };
 		35E9E66E9595B5DBEAB7446D /* PaywallResponseLogicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0909C8A460487AE8E5F4F67 /* PaywallResponseLogicTests.swift */; };
@@ -367,6 +368,7 @@
 		324EDAA0E43FABCCAB7A187F /* TrackingResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingResult.swift; sourceTree = "<group>"; };
 		33736A70528105EC203615BE /* CustomURLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomURLSession.swift; sourceTree = "<group>"; };
 		339F7D2E0AC94BC850B62262 /* apiKey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apiKey.png; sourceTree = "<group>"; };
+		3410E596296327E800C024A9 /* Paywall+RulesHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Paywall+RulesHelper.swift"; sourceTree = "<group>"; };
 		3650C18784D4552E02588186 /* Typealiases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealiases.swift; sourceTree = "<group>"; };
 		372E7F76143891AF872A9135 /* SWProductNumberGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWProductNumberGroup.swift; sourceTree = "<group>"; };
 		3785D7EBE2E8BB32E88C6B6D /* SuperwallEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperwallEvent.swift; sourceTree = "<group>"; };
@@ -658,6 +660,7 @@
 				3ACB8BA65B5F77426DCB273F /* Paywall View Controller */,
 				B199664FC6C2CCC63AA478AE /* Session Events */,
 				62478AD3FC15019BFBCD70E9 /* Trigger Logic */,
+				3410E596296327E800C024A9 /* Paywall+RulesHelper.swift */,
 			);
 			path = Paywall;
 			sourceTree = "<group>";
@@ -1886,6 +1889,7 @@
 				C7629301D05ED1CB54568E68 /* TriggerSession.swift in Sources */,
 				875E6E426EE77BEA494EB1AE /* TriggerSessionExperiment.swift in Sources */,
 				D33450E60261AB5F98A48F9A /* TriggerSessionLoadingInfo.swift in Sources */,
+				3410E597296327E800C024A9 /* Paywall+RulesHelper.swift in Sources */,
 				926D1CA9CBDFAD4277C3DA83 /* TriggerSessionManager.swift in Sources */,
 				3969AB1C34F41509E6624C0A /* TriggerSessionManagerLogic.swift in Sources */,
 				8D7C9273EC841FEE334241D2 /* TriggerSessionPaywall.swift in Sources */,
