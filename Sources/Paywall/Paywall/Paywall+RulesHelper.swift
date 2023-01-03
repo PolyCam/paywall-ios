@@ -8,11 +8,11 @@
 import UIKit
 
 public extension Paywall {
-    static func meetsRequirements(event: String, isUserSubscribed: Bool) -> PaywallInfo? {
+    static func meetsRequirements(event: String, properties: [String: Any]? = nil, isUserSubscribed: Bool) -> PaywallInfo? {
         let trackableEvent = UserInitiatedEvent.Track(
             rawName: event,
             canImplicitlyTriggerPaywall: false,
-            customParameters: [:]
+            customParameters: properties ?? [:]
         )
 
         let result = Paywall.track(trackableEvent)
